@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TwoSum
 {
@@ -31,6 +32,24 @@ namespace TwoSum
 
             }
             
+            return false;
+        }
+
+        public static bool ExistsTwoSum(int[] numbers, int target)
+        {
+            if (numbers == null || numbers.Length < 2)
+                throw new ArgumentException("Invalid numbers array passed. At least 2 elements required");
+
+            var lookup = new HashSet<int>();
+
+            foreach (var number in numbers)
+            {
+                if (lookup.Contains(target - number))
+                    return true;
+                
+                lookup.Add(number);
+            }
+
             return false;
         }
     }
