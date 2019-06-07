@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{25FC7641-E9EF-413D-AD16-2EA1A124D6BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSumTests", "TwoSumTests\TwoSumTests.csproj", "{F3148343-43CA-4041-B18A-487FAB73FF25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Two Sum", "Two Sum", "{77C4B7A3-4F77-4D80-AFF9-9321C761F117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Find Missing Integer in Array", "Find Missing Integer in Array", "{62BFDCB7-FB00-4CAE-82CE-19CE384E20B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingInteger", "FindMissingInteger\FindMissingInteger.csproj", "{D870C31E-9203-4CFC-85C3-B2BBB54B8936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingIntegerTests", "FindMissingIntegerTests\FindMissingIntegerTests.csproj", "{CAEA1A37-BB28-4A5E-9D2D-E4AB6A90473C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25FC7641-E9EF-413D-AD16-2EA1A124D6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FC7641-E9EF-413D-AD16-2EA1A124D6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FC7641-E9EF-413D-AD16-2EA1A124D6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25FC7641-E9EF-413D-AD16-2EA1A124D6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3148343-43CA-4041-B18A-487FAB73FF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3148343-43CA-4041-B18A-487FAB73FF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3148343-43CA-4041-B18A-487FAB73FF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3148343-43CA-4041-B18A-487FAB73FF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D870C31E-9203-4CFC-85C3-B2BBB54B8936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D870C31E-9203-4CFC-85C3-B2BBB54B8936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D870C31E-9203-4CFC-85C3-B2BBB54B8936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D870C31E-9203-4CFC-85C3-B2BBB54B8936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEA1A37-BB28-4A5E-9D2D-E4AB6A90473C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEA1A37-BB28-4A5E-9D2D-E4AB6A90473C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEA1A37-BB28-4A5E-9D2D-E4AB6A90473C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEA1A37-BB28-4A5E-9D2D-E4AB6A90473C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25FC7641-E9EF-413D-AD16-2EA1A124D6BE} = {77C4B7A3-4F77-4D80-AFF9-9321C761F117}
+		{F3148343-43CA-4041-B18A-487FAB73FF25} = {77C4B7A3-4F77-4D80-AFF9-9321C761F117}
+		{D870C31E-9203-4CFC-85C3-B2BBB54B8936} = {62BFDCB7-FB00-4CAE-82CE-19CE384E20B0}
+		{CAEA1A37-BB28-4A5E-9D2D-E4AB6A90473C} = {62BFDCB7-FB00-4CAE-82CE-19CE384E20B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {800096B9-8D5D-48D4-A7BA-05BBEC535E97}
+	EndGlobalSection
+EndGlobal
